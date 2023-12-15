@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-screen-1',
   standalone: true,
-  imports: [],
+  imports: [IonicModule],
   templateUrl: './screen-1.component.html',
-  styleUrl: './screen-1.component.css'
+  styleUrl: './screen-1.component.css',
 })
-export class Screen1Component {
-
-}
+export class Screen1Component {}
