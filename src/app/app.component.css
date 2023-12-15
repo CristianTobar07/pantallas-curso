@@ -1,0 +1,30 @@
+.container-principal {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  background-color: blueviolet;
+  font-size: 2rem;
+}
+
+.container-header-body {
+  width: 75%;
+  height: 100%;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  background-color: rgb(171, 186, 186);
+  font-size: 2rem;
+}
